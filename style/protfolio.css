@@ -96,8 +96,55 @@ nav a{
   font-weight: 700;
 
 }
-.section-descrition{
+.section-description{
   color: #757575;
   text-align: center;
   font-size: 18px;
+}
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+main section{
+  margin-top: 130px;
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-between;
+}
+.about-info{
+  text-align: center;
+}
+.info-tittle{
+  margin-bottom: 0;
+  color: #757575;
+}
+.info-description{
+  margin-top: 0;
+  font-weight: 600;
+}
+.what-i-do-description{
+  padding: 30px 150px;
+  
+}
+
+/* skill style */
+.skill-container{
+  display: flex;
+}
+
+.skill{
+  padding: 39px;
+  gap: 27px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.05 );
+}
+.skill-description{
+  color: #757575;
+}
+.resume-column-title{
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
 }
