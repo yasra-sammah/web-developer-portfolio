@@ -193,3 +193,67 @@ footer{
 .social-link a{
   margin-right: 25px;
 }
+.hide{
+  display: none;
+}
+@media screen and (max-width:576px) {
+
+  .skill-container,.resume-container,footer,.banner{
+    
+    flex-direction: column;
+  }
+  footer{
+    flex-direction: column;
+    padding: 10px;
+  }
+  .footer-column{
+    width: 100%;
+  }
+  .contact input[type = "text"],.contact input[type="email"],
+  textarea{
+    width: 80%;
+  }
+  .about-info-container{
+    flex-direction: column;
+  }
+  .info-description{
+    text-align: center;
+  }
+  .about{
+    padding: 10px;
+  }
+  nav > ul{
+    flex-direction: column;
+  }
+  .banner{
+    padding: 10px ;
+  }
+  .btn-primary{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  header{
+    background-image: none;
+    
+  }
+  .banner .banner-pic{
+    width: 100%;
+  }
+  .banner-contant{
+    width: 50px;
+  }
+
+}
+@media screen and (min-width:576px) and (max-width:996px) {
+  .resume-container{
+    flex-direction: column;
+  }
+  footer{
+    flex-direction: column;
+  }
+  .about-info-container{
+    flex-direction: column;
+  }
+  
+}
